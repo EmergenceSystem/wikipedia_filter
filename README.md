@@ -2,6 +2,13 @@
 
 EmergenceSystem filter that searches Wikipedia and returns article snippets as embryos.
 
+
+<!-- emergence-context -->
+Part of **[EmergenceSystem](https://github.com/EmergenceSystem)** — a distributed
+discovery network of small, single-source agents. This filter joins the em_pop gossip
+mesh and answers `POST /agent/query`; Emquest fans each query out to many filters in
+parallel and aggregates the results.
+
 ## API
 
 Queries the [Wikipedia Action API](https://en.wikipedia.org/w/api.php) full-text search endpoint. No API key required.
